@@ -1,0 +1,467 @@
+{
+  "stand": "2026-11-19",
+  "fahrzeug": "Mazda MX-5 ND (Europa); Füllmengen für SKYACTIV-G 2.0 mit Schaltgetriebe",
+  "status_legende": {
+    "offiziell (Betriebsanleitung)": "Kostenlos online bei Mazda, mit Anleitung für Besitzer.",
+    "teilweise offiziell": "Spezifikationen offiziell aus der Betriebsanleitung, die Schritt-für-Schritt-Anleitung steht nur im Werkstatthandbuch.",
+    "nur Werkstatthandbuch": "Mazda veröffentlicht das nur im kostenpflichtigen Werkstattportal.",
+    "inoffiziell": "Händler- oder Herstellerangaben Dritter, nicht von Mazda bestätigt."
+  },
+  "quellen": {
+    "betriebsanleitung_online": {
+      "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gg1ee17j/contents/10020104.html",
+      "hinweis": "Offizielle Online-Betriebsanleitung, Ausgabe 8gg1ee17j = MX-5 Modelljahr 2017, Markt Europa (EC), auf Englisch. Eine deutsche Online-Ausgabe konnte ich nicht nachweisen; die gedruckte deutsche Anleitung liegt im Fahrzeug."
+    },
+    "werkstattportal": {
+      "url": "https://vehicledata.mazda.eu/",
+      "hinweis": "Mazdas Portal für Reparatur- und Wartungsinformationen in Europa (Werkstatthandbuch, Schaltpläne, Drehmomente). Kostenpflichtig, Zeitzugang. Letzte belegte Preise (Mazda Deutschland, März 2013, Quelle: asp-Fragebogen): 1 Std. 5 €, 1 Tag 30 €, 1 Woche 138 €, 1 Monat 276 €, 1 Jahr 1.660 €. Aktuelle Preise und ob Privatpersonen sich registrieren dürfen, konnte ich nicht prüfen (Seite lädt nur mit JavaScript).",
+      "quelle_preise": "https://www.autoservicepraxis.de/downloadfile/1238036/Fragebogen2013_Mazda.pdf"
+    },
+    "nordamerika": {
+      "url": "https://www.mazdaserviceinfo.com/",
+      "hinweis": "Nur für Fahrzeuge in USA/Kanada, für ein deutsches Fahrzeug nicht zuständig."
+    }
+  },
+  "positionen": {
+    "motoroel": {
+      "anleitung_status": "teilweise offiziell",
+      "daten": {
+        "oelmenge_mit_filter_l": 4.3,
+        "oelmenge_ohne_filter_l": 4.1,
+        "oel_spezifikation_eu": "Mazda Original Oil Supra 0W-20 oder Ultra 5W-30 (empfohlen); alternativ API SN oder ACEA A5/B5",
+        "oelfilter_teilenummer": "PE01-14-302B9A (Mazda Original, laut Händler SPS für ND 1.5/2.0 – nicht von Mazda selbst bestätigt)",
+        "ablassschraube_dichtring": "bei jedem Wechsel erneuern (Teilenummer nicht belegt)",
+        "anzugsmomente": "nicht offiziell belegt (Werkstatthandbuch)"
+      },
+      "links": [
+        {
+          "titel": "Betriebsanleitung: Capacities (EU, MJ 2017)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gg1ee17j/contents/10020104.html",
+          "typ": "offiziell"
+        },
+        {
+          "titel": "Betriebsanleitung: Lubricant Quality (EU, MJ 2018)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gu7ee18e/contents/10020103.html",
+          "typ": "offiziell"
+        },
+        {
+          "titel": "Betriebsanleitung (Mazda Kanada, MJ 2017): Engine Oil – Prüfen/Nachfüllen",
+          "url": "https://mazda.ca/en/digital-owners-manual/2017/mx-5/contents/07030400.html",
+          "typ": "offiziell (Nordamerika-Ausgabe, Ölsorten weichen von EU ab)"
+        },
+        {
+          "titel": "Mazda Werkstatthandbuch (Workshop Manual) – nur über das kostenpflichtige Mazda-Portal: Engine Oil Replacement / Oil Filter Replacement",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, kostenpflichtig"
+        }
+      ],
+      "hinweise": [
+        "Füllmengen sind laut Mazda Circa-Werte: immer am Messstab kontrollieren.",
+        "Öldaten (Ölwechselanzeige) im Fahrzeug nach dem Wechsel zurücksetzen (Betriebsanleitung, Abschnitt Engine Oil / Oil Data Reset)."
+      ]
+    },
+    "batterie": {
+      "anleitung_status": "offiziell (Betriebsanleitung)",
+      "daten": {
+        "batterietyp": "nicht verifiziert – auf dem Typenschild der Batterie ablesen"
+      },
+      "links": [
+        {
+          "titel": "Betriebsanleitung: Kapitel Owner Maintenance (Reifenwechsel-Seite, Seitenleiste mit allen Wartungsthemen)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gg1ee17j/contents/07031403.html",
+          "typ": "offiziell"
+        },
+        {
+          "titel": "Betriebsanleitung (Mazda USA, MJ 2017): Owner Maintenance Precautions",
+          "url": "https://www.mazdausa.com/static/manuals/2017/mx5/contents/07030100.html",
+          "typ": "offiziell (Nordamerika-Ausgabe)"
+        }
+      ],
+      "hinweise": [
+        "Abschnitt 'Battery' im Kapitel Owner Maintenance."
+      ]
+    },
+    "bremsleitungen": {
+      "anleitung_status": "nur Werkstatthandbuch",
+      "daten": {},
+      "links": [
+        {
+          "titel": "Mazda Werkstatthandbuch (Workshop Manual) – nur über das kostenpflichtige Mazda-Portal: Brake Line / Hose Inspection",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, kostenpflichtig"
+        }
+      ],
+      "hinweise": [
+        "Sichtprüfung auf Scheuerstellen, Risse, Feuchtigkeit, Korrosion."
+      ]
+    },
+    "feststellbremse": {
+      "anleitung_status": "nur Werkstatthandbuch",
+      "daten": {},
+      "links": [
+        {
+          "titel": "Mazda Werkstatthandbuch (Workshop Manual) – nur über das kostenpflichtige Mazda-Portal: Parking Brake Inspection / Adjustment",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, kostenpflichtig"
+        }
+      ]
+    },
+    "scheibenbremsen": {
+      "anleitung_status": "nur Werkstatthandbuch",
+      "daten": {
+        "mindeststaerken": "nicht belegt (Werkstatthandbuch bzw. auf der Bremsscheibe eingeprägt)"
+      },
+      "links": [
+        {
+          "titel": "Mazda Werkstatthandbuch (Workshop Manual) – nur über das kostenpflichtige Mazda-Portal: Brake Pad / Disc Inspection",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, kostenpflichtig"
+        }
+      ]
+    },
+    "reifen": {
+      "anleitung_status": "offiziell (Betriebsanleitung)",
+      "daten": {
+        "reifengroessen": [
+          "195/50R16 84V",
+          "205/45R17 84W"
+        ],
+        "luftdruck_sommer_bar": {
+          "vorne": 2.0,
+          "hinten": 2.0
+        },
+        "luftdruck_winter_bar": {
+          "vorne": 2.0,
+          "hinten": 2.2
+        },
+        "radmutter_anzugsmoment_nm": "108–147",
+        "radmuttern": "nicht ölen oder fetten, kegelige Seite nach innen"
+      },
+      "links": [
+        {
+          "titel": "Betriebsanleitung: Tyres – Größen, Luftdruck, Radmutter-Drehmoment (EU, MJ 2017)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gg1ee17j/contents/10020109.html",
+          "typ": "offiziell"
+        },
+        {
+          "titel": "Betriebsanleitung: Reifen montieren (Schritte + Drehmoment)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gg1ee17j/contents/08020303.html",
+          "typ": "offiziell"
+        },
+        {
+          "titel": "Betriebsanleitung: Kapitel Owner Maintenance (Reifenwechsel-Seite, Seitenleiste mit allen Wartungsthemen)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gg1ee17j/contents/07031403.html",
+          "typ": "offiziell"
+        }
+      ],
+      "hinweise": [
+        "Maßgeblich ist das Reifendruck-Schild am Fahrzeug.",
+        "Radumsetzung alle 10.000 km empfohlen (Wartungsplan)."
+      ]
+    },
+    "notreparatursatz": {
+      "anleitung_status": "offiziell (Betriebsanleitung)",
+      "daten": {
+        "pruefen": "Ablaufdatum auf der Flasche"
+      },
+      "links": [
+        {
+          "titel": "Betriebsanleitung: Kapitel Owner Maintenance (Reifenwechsel-Seite, Seitenleiste mit allen Wartungsthemen)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gg1ee17j/contents/07031403.html",
+          "typ": "offiziell"
+        }
+      ],
+      "hinweise": [
+        "Abschnitt 'Emergency Flat Tyre Repair Kit' in der Betriebsanleitung. Laut Historie ist das Dichtmittel abgelaufen."
+      ]
+    },
+    "mmds": {
+      "anleitung_status": "keine DIY-Anleitung",
+      "daten": {},
+      "links": [
+        {
+          "titel": "Mazda Werkstattinformationen (EU-Portal, kostenpflichtig)",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, Zugang/Preise nicht verifiziert"
+        }
+      ],
+      "hinweise": [
+        "Nur mit Mazda-Diagnosesystem (M-MDS) beim Mazda-Händler. Ein normaler OBD-Leser liest Fehlercodes, ersetzt den Selbsttest aber nicht."
+      ]
+    },
+    "kuehlsystem": {
+      "anleitung_status": "teilweise offiziell",
+      "daten": {
+        "kuehlmittel": "Mazda FL-22",
+        "menge_2_0_schalter_lhd_l": 6.0
+      },
+      "links": [
+        {
+          "titel": "Betriebsanleitung: Capacities (EU, MJ 2017)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gg1ee17j/contents/10020104.html",
+          "typ": "offiziell"
+        },
+        {
+          "titel": "Betriebsanleitung: Lubricant Quality (EU, MJ 2018)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gu7ee18e/contents/10020103.html",
+          "typ": "offiziell"
+        },
+        {
+          "titel": "Betriebsanleitung: Kapitel Owner Maintenance (Reifenwechsel-Seite, Seitenleiste mit allen Wartungsthemen)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gg1ee17j/contents/07031403.html",
+          "typ": "offiziell"
+        }
+      ],
+      "hinweise": [
+        "Niveau nur bei kaltem Motor prüfen (Abschnitt 'Engine Coolant')."
+      ]
+    },
+    "kraftstoffleitungen": {
+      "anleitung_status": "nur Werkstatthandbuch",
+      "daten": {},
+      "links": [
+        {
+          "titel": "Mazda Werkstatthandbuch (Workshop Manual) – nur über das kostenpflichtige Mazda-Portal: Fuel Line Inspection",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, kostenpflichtig"
+        }
+      ]
+    },
+    "bremsfluessigkeit": {
+      "anleitung_status": "teilweise offiziell",
+      "daten": {
+        "spezifikation": "SAE J1703 oder FMVSS116 DOT-3 oder DOT-4 (Brems- und Kupplungsflüssigkeit gemeinsam)",
+        "menge": "nicht belegt (ca. 1 l für Wechsel inkl. Kupplung, inoffiziell)",
+        "entlueftungsreihenfolge": "nicht belegt (Werkstatthandbuch)"
+      },
+      "links": [
+        {
+          "titel": "Betriebsanleitung: Lubricant Quality (EU, MJ 2018)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gu7ee18e/contents/10020103.html",
+          "typ": "offiziell"
+        },
+        {
+          "titel": "Betriebsanleitung: Kapitel Owner Maintenance (Reifenwechsel-Seite, Seitenleiste mit allen Wartungsthemen)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gg1ee17j/contents/07031403.html",
+          "typ": "offiziell"
+        },
+        {
+          "titel": "Mazda Werkstatthandbuch (Workshop Manual) – nur über das kostenpflichtige Mazda-Portal: Brake Fluid Replacement / Clutch Fluid",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, kostenpflichtig"
+        }
+      ],
+      "hinweise": [
+        "Kupplungshydraulik hängt am selben Behälter: beim Wechsel mit entlüften."
+      ]
+    },
+    "lenkung": {
+      "anleitung_status": "nur Werkstatthandbuch",
+      "daten": {},
+      "links": [
+        {
+          "titel": "Mazda Werkstatthandbuch (Workshop Manual) – nur über das kostenpflichtige Mazda-Portal: Steering Inspection",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, kostenpflichtig"
+        }
+      ]
+    },
+    "radaufhaengung": {
+      "anleitung_status": "nur Werkstatthandbuch",
+      "daten": {},
+      "links": [
+        {
+          "titel": "Mazda Werkstatthandbuch (Workshop Manual) – nur über das kostenpflichtige Mazda-Portal: Suspension / Ball Joint / Wheel Bearing Inspection",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, kostenpflichtig"
+        }
+      ]
+    },
+    "antriebswellen": {
+      "anleitung_status": "nur Werkstatthandbuch",
+      "daten": {},
+      "links": [
+        {
+          "titel": "Mazda Werkstatthandbuch (Workshop Manual) – nur über das kostenpflichtige Mazda-Portal: Drive Shaft Boot Inspection",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, kostenpflichtig"
+        }
+      ]
+    },
+    "schraubverbindungen": {
+      "anleitung_status": "nur Werkstatthandbuch",
+      "daten": {
+        "anzugsmomente": "Fahrwerks-Drehmomente nur im Werkstatthandbuch"
+      },
+      "links": [
+        {
+          "titel": "Mazda Werkstatthandbuch (Workshop Manual) – nur über das kostenpflichtige Mazda-Portal: Chassis / Body Bolts and Nuts – Tightening Torques",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, kostenpflichtig"
+        }
+      ],
+      "hinweise": [
+        "Ohne Drehmomenttabelle nicht 'nach Gefühl' nachziehen."
+      ]
+    },
+    "luftfilter": {
+      "anleitung_status": "nur Werkstatthandbuch",
+      "daten": {
+        "teilenummer": "nicht belegt (beim Mazda-Teiledienst per FIN erfragen)"
+      },
+      "links": [
+        {
+          "titel": "Mazda Werkstatthandbuch (Workshop Manual) – nur über das kostenpflichtige Mazda-Portal: Air Cleaner Element Replacement",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, kostenpflichtig"
+        }
+      ]
+    },
+    "kraftstoffverdunstung": {
+      "anleitung_status": "nur Werkstatthandbuch",
+      "daten": {},
+      "links": [
+        {
+          "titel": "Mazda Werkstatthandbuch (Workshop Manual) – nur über das kostenpflichtige Mazda-Portal: Evaporative Emission Control System Inspection",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, kostenpflichtig"
+        }
+      ]
+    },
+    "keilriemen": {
+      "anleitung_status": "nur Werkstatthandbuch",
+      "daten": {},
+      "links": [
+        {
+          "titel": "Mazda Werkstatthandbuch (Workshop Manual) – nur über das kostenpflichtige Mazda-Portal: Drive Belt Inspection",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, kostenpflichtig"
+        }
+      ],
+      "hinweise": [
+        "Automatischer Spanner: Riss- und Verschleißprüfung, kein Nachspannen."
+      ]
+    },
+    "auspuff": {
+      "anleitung_status": "nur Werkstatthandbuch",
+      "daten": {},
+      "links": [
+        {
+          "titel": "Mazda Werkstatthandbuch (Workshop Manual) – nur über das kostenpflichtige Mazda-Portal: Exhaust System Inspection",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, kostenpflichtig"
+        }
+      ]
+    },
+    "schaltgetriebeoel": {
+      "anleitung_status": "teilweise offiziell",
+      "daten": {
+        "menge_l": 2.0,
+        "spezifikation": "Mazda Original Long Life Gear Oil IS (empfohlen); sonst API GL-4 SAE 75W-90 (Schalten bei Kälte evtl. schwerer)",
+        "stopfen_drehmomente": "nicht belegt (Werkstatthandbuch)"
+      },
+      "links": [
+        {
+          "titel": "Betriebsanleitung: Capacities (EU, MJ 2017)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gg1ee17j/contents/10020104.html",
+          "typ": "offiziell"
+        },
+        {
+          "titel": "Betriebsanleitung: Lubricant Quality (EU, MJ 2018)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gu7ee18e/contents/10020103.html",
+          "typ": "offiziell"
+        },
+        {
+          "titel": "Mazda Werkstatthandbuch (Workshop Manual) – nur über das kostenpflichtige Mazda-Portal: Manual Transmission Oil Replacement",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, kostenpflichtig"
+        }
+      ]
+    },
+    "differenzialoel": {
+      "anleitung_status": "teilweise offiziell",
+      "daten": {
+        "menge_l": 0.6,
+        "spezifikation": "Mazda Long Life Hypoid Gear Oil SG1"
+      },
+      "links": [
+        {
+          "titel": "Betriebsanleitung: Capacities (EU, MJ 2017)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gg1ee17j/contents/10020104.html",
+          "typ": "offiziell"
+        },
+        {
+          "titel": "Betriebsanleitung: Lubricant Quality (EU, MJ 2018)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gu7ee18e/contents/10020103.html",
+          "typ": "offiziell"
+        }
+      ],
+      "hinweise": [
+        "Nicht im EU-Plan 1 als fester Tausch gelistet; Daten nur zur Vollständigkeit."
+      ]
+    },
+    "zuendkerzen": {
+      "anleitung_status": "nur Werkstatthandbuch + Herstellerangabe NGK",
+      "daten": {
+        "typ": "NGK ILKAR7L11 (Laser Iridium) – von Händlern für ND 1.5/2.0 gelistet, nicht von Mazda bestätigt",
+        "elektrodenabstand_mm": 1.1,
+        "gewinde": "M12x1,25, SW 14 mm",
+        "anzugsmoment": "NGK: Alu-Kopf 14,6–19,7 Nm (10,8–14,5 lb·ft) – Mazda-Wert nicht belegt"
+      },
+      "links": [
+        {
+          "titel": "NGK Produktseite ILKAR7L11",
+          "url": "https://ngk.com/ngk-94124-ilkar7l11-laser-iridium-spark-plug",
+          "typ": "Hersteller der Zündkerze"
+        },
+        {
+          "titel": "Mazda Werkstatthandbuch (Workshop Manual) – nur über das kostenpflichtige Mazda-Portal: Spark Plug Replacement",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, kostenpflichtig"
+        }
+      ]
+    },
+    "kuehlmittel": {
+      "anleitung_status": "teilweise offiziell",
+      "daten": {
+        "kuehlmittel": "Mazda FL-22",
+        "menge_2_0_schalter_lhd_l": 6.0,
+        "entlueftung": "nicht belegt (Werkstatthandbuch)"
+      },
+      "links": [
+        {
+          "titel": "Betriebsanleitung: Capacities (EU, MJ 2017)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gg1ee17j/contents/10020104.html",
+          "typ": "offiziell"
+        },
+        {
+          "titel": "Betriebsanleitung: Lubricant Quality (EU, MJ 2018)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gu7ee18e/contents/10020103.html",
+          "typ": "offiziell"
+        },
+        {
+          "titel": "Mazda Werkstatthandbuch (Workshop Manual) – nur über das kostenpflichtige Mazda-Portal: Engine Coolant Replacement",
+          "url": "https://vehicledata.mazda.eu/",
+          "typ": "offiziell, kostenpflichtig"
+        }
+      ],
+      "hinweise": [
+        "Erster Tausch fällig 06/2027 (10 Jahre)."
+      ]
+    },
+    "karosserie": {
+      "anleitung_status": "offiziell (Betriebsanleitung, Pflegekapitel)",
+      "daten": {},
+      "links": [
+        {
+          "titel": "Betriebsanleitung: Kapitel Owner Maintenance (Reifenwechsel-Seite, Seitenleiste mit allen Wartungsthemen)",
+          "url": "https://owners-manual.mazda.com/gen/en/mx-5/mx-5_8gg1ee17j/contents/07031403.html",
+          "typ": "offiziell"
+        }
+      ],
+      "hinweise": [
+        "Unterboden, Radläufe, Schweller und Falze auf Rost prüfen; Abschnitt 'Body Lubrication' für Scharniere/Schlösser."
+      ]
+    }
+  }
+}

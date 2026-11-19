@@ -1,0 +1,35 @@
+{
+  "quelle": "Mazda MX-5 (ND) Betriebsanleitung, Kap. 9 Regelmäßige Wartung, Plan 1 (S. 9-8 bis 9-10)",
+  "grundintervall": { "km": 20000, "monate": 12, "hinweis": "Jede Wartung spätestens nach 20.000 km oder 12 Monaten, je nachdem was zuerst eintritt (oder Schlüsselsymbol)." },
+  "symbole": { "I": "Kontrollieren (reinigen, einstellen, nachfüllen, ggf. ersetzen)", "R": "Ersetzen", "T": "Festziehen" },
+  "positionen": [
+    { "id": "motoroel", "name": "Motoröl & Ölfilter", "aktion": "R", "km": 20000, "monate": 12, "hinweis": "Bei erschwerten Bedingungen (Kurzstrecke, Kälte, Hitze, Berge, Staub, viel Leerlauf) alle 10.000 km. Öldaten im Fahrzeug nach jedem Wechsel zurücksetzen." },
+    { "id": "batterie", "name": "Batterie", "aktion": "I", "km": 20000, "monate": 12, "hinweis": "Säurestand und Äußeres prüfen; bei versiegelter Batterie nur Außenseite." },
+    { "id": "bremsleitungen", "name": "Bremsleitungen, Schläuche und Verbindungen", "aktion": "I", "km": 20000, "monate": 12 },
+    { "id": "feststellbremse", "name": "Feststellbremse", "aktion": "I", "km": 20000, "monate": 12 },
+    { "id": "scheibenbremsen", "name": "Scheibenbremsen", "aktion": "I", "km": 20000, "monate": 12 },
+    { "id": "reifen", "name": "Reifen, Laufbild und Reifendruck", "aktion": "I", "km": 20000, "monate": 12, "hinweis": "Radumsetzung alle 10.000 km empfohlen." },
+    { "id": "notreparatursatz", "name": "Notreparatursatz für Reifen", "aktion": "I", "km": 20000, "monate": 12, "hinweis": "Verwendungsfrist der Reparaturflüssigkeit jährlich prüfen, vor Ablauf tauschen." },
+    { "id": "mmds", "name": "Selbsttest Diagnosesystem (M-MDS)", "aktion": "I", "km": 20000, "monate": 12, "hinweis": "Nur mit Mazda-Diagnosegerät (Werkstatt). Software-Rückverfolgbarkeit für ISA." },
+    { "id": "kuehlsystem", "name": "Kühlsystem", "aktion": "I", "km": 40000, "monate": 24 },
+    { "id": "kraftstoffleitungen", "name": "Kraftstoffleitungen und Schläuche", "aktion": "I", "km": 40000, "monate": 24 },
+    { "id": "bremsfluessigkeit", "name": "Bremsflüssigkeit", "aktion": "R", "km": 40000, "monate": 24, "hinweis": "Bei häufigem starkem Bremsen, Gebirge oder sehr feuchtem Klima jährlich." },
+    { "id": "lenkung", "name": "Funktion der Lenkung und Lenkgestänge", "aktion": "I", "km": 40000, "monate": 24 },
+    { "id": "radaufhaengung", "name": "Vorder- und Hinterradaufhängung, Kugelgelenke, Radlagerspiel", "aktion": "I", "km": 40000, "monate": 24 },
+    { "id": "antriebswellen", "name": "Antriebswellenstaubbälge", "aktion": "I", "km": 40000, "monate": 24 },
+    { "id": "schraubverbindungen", "name": "Schraubverbindungen an Fahrwerk und Karosserie", "aktion": "T", "km": 40000, "monate": 24 },
+    { "id": "luftfilter", "name": "Luftfilter", "aktion": "R", "km": 60000, "monate": 36, "hinweis": "Bei staubigen/sandigen Gebieten früher." },
+    { "id": "kraftstoffverdunstung", "name": "Kraftstoffverdunstungs-Kontrollsystem", "aktion": "I", "km": 60000, "monate": 36 },
+    { "id": "keilriemen", "name": "Keilriemen (inkl. Klimaanlage)", "aktion": "I", "km": 60000, "monate": 36, "hinweis": "Bei erschwerten Bedingungen alle 20.000 km / 12 Monate." },
+    { "id": "auspuff", "name": "Auspuffanlage und Abschirmbleche", "aktion": "I", "km": 80000, "monate": 60 },
+    { "id": "schaltgetriebeoel", "name": "Schaltgetriebeöl", "aktion": "R", "km": 100000, "monate": 60, "hinweis": "Nur Schaltgetriebe." },
+    { "id": "zuendkerzen", "name": "Zündkerzen", "aktion": "R", "km": 120000, "monate": null },
+    { "id": "kuehlmittel", "name": "Kühlmittel", "aktion": "R", "erstmals": { "km": 200000, "monate": 120 }, "km": 100000, "monate": 60, "hinweis": "Erstmals nach 200.000 km / 10 Jahren, danach alle 100.000 km / 5 Jahre. Mazda FL-22 verwenden." },
+    { "id": "karosserie", "name": "Karosseriezustand (Rost, Korrosion)", "aktion": "I", "km": null, "monate": 12 }
+  ],
+  "ausgelassen": [
+    "Kraftstofffilter (nur Zypern/Malta)",
+    "Lenkung jährlich (nur Zypern/Malta)",
+    "M-MDS Selbsttest SKYACTIV-G (nur Ukraine)"
+  ]
+}
