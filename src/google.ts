@@ -326,6 +326,15 @@ export async function eintragSpeichern(ablage: Ablage, e: Eintrag, positionName:
   ]);
 }
 
+/** Appends many rows at once (CSV import). */
+export async function zeilenImportieren(ablage: Ablage, art: 'eintraege' | 'kilometer', zeilen: (string | number)[][]): Promise<void> {
+  if (!zeilen.length) return;
+  await api(
+    `https://sheets.googleapis.com/v4/spreadsheets/${ablage.tabelleId}/values/${encodeURIComponent(`'${art === 'eintraege' ? BLATT_EINTRAEGE : BLATT_KM}'!A1`)}:append?valueInputOption=RAW&insertDataOption=INSERT_ROWS`,
+    json({ values: zeilen }),
+  );
+}
+
 export async function kmSpeichern(ablage: Ablage, k: KmStand): Promise<void> {
   await anhaengen(ablage, BLATT_KM, [k.datum, k.km]);
 }
