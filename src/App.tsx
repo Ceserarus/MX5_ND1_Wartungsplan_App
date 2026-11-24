@@ -16,6 +16,7 @@ import {
   ordnerLink,
   tabelleLink,
   warAngemeldet,
+  zeilenImportieren,
   type Ablage,
   type Daten,
 } from './google';
@@ -32,6 +33,7 @@ import {
 import { kmImMonat } from './km';
 import { Kilometer } from './Kilometer';
 import { InfoBlatt } from './Info';
+import { CsvImport } from './ImportCsv';
 
 type Ansicht = 'uebersicht' | 'neu' | 'verlauf' | 'kilometer' | 'fahrzeug';
 
@@ -181,6 +183,11 @@ export default function App() {
           <Fahrzeug
             ablage={ablage}
             fahrzeug={daten.fahrzeug}
+            daten={daten}
+            onImportieren={async (art, zeilen) => {
+              await zeilenImportieren(ablage, art, zeilen);
+              await neuLaden();
+            }}
             onSpeichern={async (werte) => {
               await fahrzeugSpeichern(ablage, { ...daten.fahrzeug, ...werte });
               await neuLaden();
@@ -603,6 +610,8 @@ const FAHRZEUG_FELDER: { key: string; label: string; typ?: string; placeholder?:
 function Fahrzeug(props: {
   ablage: Ablage;
   fahrzeug: Record<string, string>;
+  daten: Daten;
+  onImportieren: (art: 'eintraege' | 'kilometer', zeilen: (string | number)[][]) => Promise<void>;
   onSpeichern: (werte: Record<string, string>) => Promise<void>;
   onAbmelden: () => void;
 }) {
@@ -645,6 +654,7 @@ function Fahrzeug(props: {
           Ordner öffnen
         </a>
       </p>
+      <CsvImport daten={props.daten} onImportieren={props.onImportieren} />
       <button type="button" onClick={props.onAbmelden}>
         Abmelden
       </button>
